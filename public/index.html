@@ -1,0 +1,249 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+	
+	<title>TARDIS Clock</title><meta name="viewport" content="width=400px">
+	
+	<script src="socket.io/socket.io.js"></script>
+	<link href="style.css" rel="stylesheet" type="text/css"></head>
+
+  <body background="background.jpg"><big style="background-color: rgb(51, 51, 255);"><big><big><big><big>TARDIS CLOCK</big></big></big></big></big><br><hr>
+
+ <span id="statusText">Status Awaiting Update</span>
+
+<br><hr><br>
+Real-time Controls&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input id="blueButton" onclick="pressButton(this.value)" value="Themes" type="button">
+        <input id="greenButton" onclick="pressButton(this.value)" value="Materialize" type="button">
+        <input id="redButton" onclick="pressButton(this.value)" value="Dematerialize" type="button">
+        <input id="yellowButton" onclick="pressButton(this.value)" value="Cloister Bell" type="button">
+ 
+
+
+<br><hr><br> Volume
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;min <input id="VolSlider" min="0" max="63" value="30" step="1" oninput="showValueVol(this.value)" type="range">     max    <span id="VoloutputText">30</span>
+<br><hr><br>
+ Light SensorThreshold &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Light  <input id="duskSlider" min="1" max="2000" value="80" step="1" oninput="showValueDusk(this.value)" type="range"> darker   <span id="duskoutputText">80</span>
+<br><hr><br>
+  
+Set Quiet Hours  
+
+<form class="jotform-form" method="post" action="/setInactive"  >
+  <input type="hidden" name="formID" value="60107156285149" />
+  <div class="form-all">
+    <ul class="form-section page-section">
+      <li class="form-line" data-type="control_checkbox" id="id_1">
+        <label class="form-label form-label-left form-label-auto" id="label_1" for="input_1">  </label>
+        <div id="cid_1" class="form-input jf-required">
+          <div class="form-multiple-column" data-columnCount="6">
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_0" name="q1_input1[]" value="00:00 am" />
+              <label id="label_input_1_0" for="input_1_0"> Midnight </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_1" name="q1_input1[]" value="1:00 am" />
+              <label id="label_input_1_1" for="input_1_1"> 1:00 am </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_2" name="q1_input1[]" value="2:00 am" />
+              <label id="label_input_1_2" for="input_1_2"> 2:00 am </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_3" name="q1_input1[]" value="3:00 am" />
+              <label id="label_input_1_3" for="input_1_3"> 3:00 am </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_4" name="q1_input1[]" value="4:00 am" />
+              <label id="label_input_1_4" for="input_1_4"> 4:00 am </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_5" name="q1_input1[]" value="5:00 am" />
+              <label id="label_input_1_5" for="input_1_5"> 5:00 am </label>
+            </span>
+            <br>
+            <span class="form-checkbox-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_6" name="q1_input1[]" value="6:00 am" />
+              <label id="label_input_1_6" for="input_1_6"> 6:00 am </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_7" name="q1_input1[]" value="7:00 am" />
+              <label id="label_input_1_7" for="input_1_7"> 7:00 am </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_8" name="q1_input1[]" value="8:00 am" />
+              <label id="label_input_1_8" for="input_1_8"> 8:00 am </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_9" name="q1_input1[]" value="9:00 am" />
+              <label id="label_input_1_9" for="input_1_9"> 9:00 am </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_10" name="q1_input1[]" value="10:00 am" />
+              <label id="label_input_1_10" for="input_1_10"> 10:00 am </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_11" name="q1_input1[]" value="11:00 am" />
+              <label id="label_input_1_11" for="input_1_11"> 11:00 am </label>
+            </span>
+            <br>
+            <span class="form-checkbox-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_12" name="q1_input1[]" value="12:00 pm" />
+              <label id="label_input_1_12" for="input_1_12"> Noon </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_13" name="q1_input1[]" value="1:00 pm" />
+              <label id="label_input_1_13" for="input_1_13"> 1:00 pm </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_14" name="q1_input1[]" value="2:00 pm" />
+              <label id="label_input_1_14" for="input_1_14"> 2:00 pm </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_15" name="q1_input1[]" value="3:00 pm" />
+              <label id="label_input_1_15" for="input_1_15"> 3:00 pm </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_16" name="q1_input1[]" value="4:00 pm" />
+              <label id="label_input_1_16" for="input_1_16"> 4:00 pm </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_17" name="q1_input1[]" value="5:00 pm" />
+              <label id="label_input_1_17" for="input_1_17"> 5:00 pm </label>
+            </span>
+            <br>
+            <span class="form-checkbox-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_18" name="q1_input1[]" value="6:00 pm" />
+              <label id="label_input_1_18" for="input_1_18"> 6:00 pm </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_19" name="q1_input1[]" value="7:00 pm" />
+              <label id="label_input_1_19" for="input_1_19"> 7:00 pm </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_20" name="q1_input1[]" value="8:00 pm" />
+              <label id="label_input_1_20" for="input_1_20"> 8:00 pm </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_21" name="q1_input1[]" value="9:00 pm" />
+              <label id="label_input_1_21" for="input_1_21"> 9:00 pm </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_22" name="q1_input1[]" value="10:00 pm" />
+              <label id="label_input_1_22" for="input_1_22"> 10:00 pm </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_1_23" name="q1_input1[]" value="11:00 pm" />
+              <label id="label_input_1_23" for="input_1_23"> 11:00 pm </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_2">
+        <div id="cid_2" class="form-input-wide">
+          <div class="form-buttons-wrapper">
+            <button id="input_2" type="submit" class="form-submit-button">
+              Submit
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+
+<br><hr><br>
+        
+
+
+
+<script type="text/javascript">
+		var socket = io.connect();
+		
+		
+	        socket.on('button', function (data) {
+	
+		});
+		
+		function pressButton(newValue)
+		{
+
+			socket.emit('button', { value: newValue });
+		}
+                socket.on('volume', function (data) {
+			document.getElementById("VolSlider").value = data.value;
+			document.getElementById("VoloutputText").innerHTML = data.value;
+		});
+		
+		function showValueVol(newValue)
+		{
+			document.getElementById("VoloutputText").innerHTML=newValue;
+			socket.emit('volume', { value: newValue });
+		}
+                socket.on('duskLevel', function (data) {
+			document.getElementById("duskSlider").value = data.value;
+			document.getElementById("duskoutputText").innerHTML = data.value;
+		});
+		
+		function showValueDusk(newValue)
+		{
+			document.getElementById("duskoutputText").innerHTML=newValue;
+			socket.emit('duskLevel', { value: newValue });
+		}
+ 
+                socket.on('status', function (data) {
+			
+			document.getElementById("statusText").innerHTML = data.value;
+		});
+
+
+	</script></select></form></body></html>

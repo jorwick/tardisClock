@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+	<title>TARDIS Clock</title>
+	<meta name="viewport" content="width=400px" />
+	
+	<script src="socket.io/socket.io.js"></script>
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	
+        <input type="button" id = "blueButton" onclick = "pressButton(this.value)" value="blue">
+        <input type="button" id = "greenButton" onclick = "pressButton(this.value)" value="green">
+        <input type="button" id = "redButton" onclick = "pressButton(this.value)" value="red">
+        <input type="button" id = "yellowButton" onclick = "pressButton(this.value)" value="yellow">
+         
+        
+         
+
+        
+	
+	<script type="text/javascript">
+		var socket = io.connect();
+		
+		
+	        socket.on('button', function (data) {
+	
+		});
+		
+		function pressButton(newValue)
+		{
+
+			socket.emit('button', { value: newValue });
+		}
+                
+
+
+
+	</script>
+  </body>
+</html>

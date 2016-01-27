@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head><meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"><title>TARDIS Clock</title>
+
+<meta name="viewport" content="width=400px">
+<script src="socket.io/socket.io.js"></script>
+<link rel="stylesheet" href="style.css">
+<meta content="Jeff Orwick" name="author"><meta content="Tardis Raspberry PI based Clock" name="description"></head><body style="background-image: url(file:///C:/Users/jorwick/Pictures/8thdoctor.jpg);">
+<div style="text-align: center;"><input id="blueButton" onclick="pressButton(this.value)" value="blue" type="button">
+<input id="greenButton" onclick="pressButton(this.value)" value="green" type="button">
+<input id="redButton" onclick="pressButton(this.value)" value="red" type="button">
+<input id="yellowButton" onclick="pressButton(this.value)" value="yellow" type="button">
+<script type="text/javascript">
+var socket = io.connect();
+socket.on('button', function (data) {
+});
+function pressButton(newValue)
+{
+socket.emit('button', { value: newValue });
+}
+</script>
+</div></body></html>

@@ -1,0 +1,60 @@
+body {
+	text-align: center;
+	margin-top: 50px;
+        color: white;
+        background-image: url("file://background.jpg")
+	background: #000000;
+   
+        margin:0;
+        padding:0;
+      
+  
+}
+
+input[type=range]{
+	-webkit-appearance: none;
+	width: 20%;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+	height: 10px;
+	background: #ddd;
+	border: none;
+	border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	border: none;
+	height:20px;
+	width: 5px;
+	border-radius: 50%;
+	background: blue;
+	margin-top: -12 px;
+}
+
+input[type=range]:focus {
+	outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #ccc;
+}
+
+
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+   
+ 
+
+    .form-all{
+        margin:0px auto;
+        padding-top:20px;
+        width:100px;
+        color:white ;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size:12px;
+    }
+
+  
