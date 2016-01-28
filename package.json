@@ -26,6 +26,7 @@
     "nconf": "^0.8.2",
     "node-aplay": "^1.0.3",
     "onoff": "^1.0.3",
-    "pi-blaster.js": "^0.1.1"
+    "pi-blaster.js": "^0.1.1",
+    "socket.io": "^1.4.5"
   }
 }
