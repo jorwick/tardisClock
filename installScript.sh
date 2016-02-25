@@ -26,6 +26,6 @@ echo INSTALL TARDISCLOCK Module dependancies
 cd /home/pi/tardisClock
 npm install 
 echo Build and Start TardisClock service
-sudo cp /home/pi/tardisClock/TARDISCLOCK.server /etc/systemd/system/TARDISCLOCK.service
+sudo cp /home/pi/tardisClock/TARDISCLOCK.service /etc/systemd/system/TARDISCLOCK.service
 sudo systemctl daemon-reload && sudo systemctl enable TARDISCLOCK.service
 sudo systemctl start TARDISCLOCK
