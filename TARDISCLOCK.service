@@ -1,0 +1,18 @@
+[Unit]
+Description=TARDISCLOCK
+after=network.target
+
+[Service]
+
+WorkingDirectory=/home/pi/tardisClock
+ExecStart=/usr/local/bin/node /home/pi/tardisClock/TARDISclock.js
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=TARDISCLOCK
+User=root
+Group=root
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

@@ -1,101 +1,79 @@
-Volume is set to 56
-Dusk threshold is set to 165
-Inactive Hours are 0,1,2,3,4,22,23
-[ '/home/pi/tardisClock/Sounds/Themes/50th Anniversary.wav',
-  '/home/pi/tardisClock/Sounds/Themes/Debney 1996.wav',
-  '/home/pi/tardisClock/Sounds/Themes/Derbyshire 1963-1966.wav',
-  '/home/pi/tardisClock/Sounds/Themes/Derbyshire 1967-1979.wav',
-  '/home/pi/tardisClock/Sounds/Themes/Glynn 1986.wav',
-  '/home/pi/tardisClock/Sounds/Themes/Gold 2005-2007.wav',
-  '/home/pi/tardisClock/Sounds/Themes/Howell 1980-1985.wav',
-  '/home/pi/tardisClock/Sounds/Themes/McCulloch 1987-1989.wav',
-  '/home/pi/tardisClock/Sounds/Themes/arnold.wav',
-  '/home/pi/tardisClock/Sounds/Themes/delaware.wav',
-  '/home/pi/tardisClock/Sounds/Themes/gold 2008-2009.wav',
-  '/home/pi/tardisClock/Sounds/Themes/gold 2010-2012.wav',
-  '/home/pi/tardisClock/Sounds/Themes/gold2013.wav',
-  '/home/pi/tardisClock/Sounds/Themes/gold2014.wav' ]
+there are 14 files
+playing theme #6 , /home/pi/tardisClock/Sounds/Themes/Howell 1980-1985.wav
+Its Noon!
+The Themes button was pressed
+volume is now62
+volume is now61
+volume is now60
+volume is now59
+volume is now58
+volume is now56
 volume is now55
 volume is now54
-volume is now53
 volume is now52
 volume is now51
 volume is now50
+volume is now49
+volume is now48
+volume is now48
+volume is now47
+volume is now47
+volume is now48
+volume is now49
+volume is now49
+volume is now50
+volume is now51
+volume is now52
+volume is now52
+volume is now53
+volume is now53
+volume is now54
+volume is now55
+volume is now55
+volume is now56
+volume is now57
+volume is now57
+volume is now58
+volume is now59
+volume is now60
+volume is now60
+volume is now61
+volume is now61
+volume is now60
+volume is now59
+volume is now58
+volume is now57
+volume is now55
+volume is now54
+volume is now53
+volume is now51
 volume is now50
 volume is now49
 volume is now48
 volume is now47
 volume is now46
 volume is now45
-volume is now45
-volume is now44
 volume is now44
 volume is now43
+volume is now42
 volume is now42
 volume is now41
 volume is now40
 volume is now39
+volume is now39
 volume is now38
+volume is now37
 volume is now37
 volume is now36
 volume is now35
-volume is now35
 volume is now34
-volume is now34
-volume is now33
 volume is now33
 volume is now32
-volume is now31
-volume is now31
-volume is now30
-volume is now29
-volume is now29
-volume is now29
-volume is now28
-volume is now28
-volume is now27
-volume is now27
-volume is now26
-volume is now26
-volume is now26
-volume is now25
-volume is now25
-volume is now25
-volume is now24
-volume is now23
-volume is now23
-volume is now22
-volume is now22
-volume is now21
-volume is now21
-volume is now20
-volume is now20
-volume is now19
-volume is now19
-volume is now18
-volume is now18
-volume is now18
-volume is now17
-volume is now17
-volume is now16
-volume is now16
-volume is now16
-volume is now15
-volume is now15
-volume is now14
-volume is now14
-volume is now13
-volume is now12
-volume is now12
-volume is now11
-volume is now11
-volume is now11
-volume is now11
-volume is now15
-volume is now19
-The Themes button was pressed
-there are 14 files
-playing theme #11 , /home/pi/tardisClock/Sounds/Themes/gold 2010-2012.wav
+volume is now32
+volume is now32
+volume is now32
+volume is now32
+volume is now32
 music stopped playing
 music stopped playing
 10 second Timeout Reached - its dark out.
@@ -103,360 +81,3 @@ it has been dark the last 1checks
 Active is 0
 quietPeriod is 0
 meterState is 0
-10 second Timeout Reached - its dark out.
-it has been dark the last 2checks
-Active is 0
-quietPeriod is 0
-meterState is 0
-hour is1
-10 second Timeout Reached - its dark out.
-it has been dark the last 3checks
-Active is 0
-quietPeriod is 1
-meterState is 0
-10 second Timeout Reached - its dark out.
-it has been dark the last 4checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 5checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 6checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 7checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 8checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 9checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 10checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 11checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 12checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 13checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 14checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-hour is2
-10 second Timeout Reached - its dark out.
-it has been dark the last 15checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 16checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 17checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 18checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 19checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 20checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 21checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 22checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 23checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 24checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 25checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 26checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-hour is3
-10 second Timeout Reached - its dark out.
-it has been dark the last 27checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 28checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 29checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 30checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 31checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 32checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 33checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 34checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 35checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 36checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 37checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 38checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-hour is4
-10 second Timeout Reached - its dark out.
-it has been dark the last 39checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 40checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 41checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 42checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 43checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 44checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 45checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 46checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 47checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 48checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 49checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 50checks
-Active is 0
-quietPeriod is 1
-meterState is 1
-hour is5
-Its 5 Oclock - play chimes
-music stopped playing
-music stopped playing
-10 second Timeout Reached - its dark out.
-it has been dark the last 51checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 52checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 53checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 54checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 55checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 56checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 57checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 58checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 59checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 60checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 61checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 62checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-hour is6
-Its 6 Oclock - play chimes
-music stopped playing
-music stopped playing
-10 second Timeout Reached - its dark out.
-it has been dark the last 63checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 64checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 65checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 66checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 67checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 68checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 69checks
-Active is 0
-quietPeriod is 0
-meterState is 1
-10 second Timeout Reached - its dark out.
-it has been dark the last 70checks
-Active is 0
-quietPeriod is 0
-meterState is 1
