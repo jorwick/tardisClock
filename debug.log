@@ -38,3 +38,13 @@ terminate signal on input 1
 terminate signal on input 0
 music stopped playing
 music stopped playing
+10 second Timeout Reached - its dark out.
+it has been dark the last 4checks
+Active is 0
+quietPeriod is 0
+meterState is 1
+10 second Timeout Reached - its dark out.
+it has been dark the last 5checks
+Active is 0
+quietPeriod is 0
+meterState is 1
